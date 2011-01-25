@@ -164,23 +164,6 @@ function precmd {
     else
         PR_FILLBAR="\${(l.((${TERMWIDTH} - (${PROMPTSIZE} + ${PWDSIZE})))..${PR_HBAR}.)}"
     fi
-
-    # VCS
-    if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null)
-            && -z $(bzr ls -R --unknown 2> /dev/null) ]]; then
-        if [[ -z $(bzr st -V 2> /dev/null) ]]; then
-            zstyle ':vcs_info:*' formats ' %F{white}[%b%c%u%F{white}]'
-        else
-            zstyle ':vcs_info:*' formats ' %F{white}[%b%c%u%F{28}.%F{white}]'
-        fi
-    else
-        if [[ -z $(bzr st -V 2> /dev/null) ]]; then
-            zstyle ':vcs_info:*' formats ' %F{white}[%b%c%u%F{red}.%F{white}]'
-        else
-            zstyle ':vcs_info:*' formats ' %F{white}[%b%c%u%F{red}.%F{28}.%F{white}]'
-        fi
-    fi
-    vcs_info
 }
 
 function preexec () {
