@@ -12,8 +12,10 @@ export HISTFILE="${HOME}/.zsh_history"
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 export LESSHISTFILE="-"
-export PAGER="vimpager"
-export READNULLCMD="${PAGER}"
+# I'm not sure what vimpager is exactly, but it was causing "git log"
+# to not work.
+#export PAGER="vimpager"
+#export READNULLCMD="${PAGER}"
 export EDITOR="vim"
 export BROWSER="firefox"
 export XTERM="urxvtc"
