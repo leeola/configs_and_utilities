@@ -1,3 +1,7 @@
+# Running zsh from bash is the only way i can think to get zsh ran, when 
+# running Putty-Cygwin.
+zsh
+
 # base-files version 3.9-3
 
 # To pick up the latest recommended .bashrc content,
