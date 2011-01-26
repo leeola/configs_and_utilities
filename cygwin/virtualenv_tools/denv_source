@@ -1,0 +1,2 @@
+#!/bin/sh
+RPROMPT="$_OLD_RPROMPT"

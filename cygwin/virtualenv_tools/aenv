@@ -1,0 +1,4 @@
+#!/bin/sh
+echo Wee $1
+source $1/bin/activate
+source ./aenv_source
