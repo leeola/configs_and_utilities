@@ -72,6 +72,8 @@ alias gyi='yi -f pango'
 alias -g rc.lua="/home/danny/.config/awesome/rc.lua"
 alias -g awlib="/usr/share/awesome/lib/"
 alias -g vimfiles="/usr/share/vim/vimfiles/"
+alias aenv="source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/aenv $1"
+alias denv="source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/denv"
 # }}}
 
 # {{{ Completion
