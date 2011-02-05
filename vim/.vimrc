@@ -10,13 +10,12 @@
 "	    for OpenVMS:  sys$login:.vimrc
 
 
-" Set indentation to use spaces instead of tabs.
-set expandtab
-
-
 " Enable pathogen, taken from the pathogen script site.
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
+" Set indentation to use spaces instead of tabs.
+set expandtab
 
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
