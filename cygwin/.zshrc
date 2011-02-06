@@ -74,6 +74,7 @@ alias -g awlib="/usr/share/awesome/lib/"
 alias -g vimfiles="/usr/share/vim/vimfiles/"
 alias aenv="source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/aenv $1"
 alias denv="source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/denv"
+alias cdp="cd /cygdrive/f/projects/"
 # }}}
 
 # {{{ Completion
