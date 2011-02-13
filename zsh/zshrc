@@ -39,8 +39,8 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 
 # Aliases
-alias aenv="source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/aenv $1"
-alias denv="source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/denv"
+alias aenv="source ~/projects/configs_and_utilities/repo/virtualenv_tools/aenv $1"
+alias denv="source ~/projects/configs_and_utilities/repo/virtualenv_tools/denv"
 
 
 

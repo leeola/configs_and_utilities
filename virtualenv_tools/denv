@@ -1,3 +1,5 @@
 #!/bin/sh
+
 deactivate
-source ~/projects/configs_and_utilities/repo/virtualenv_tools/denv_source
+export "RPROMPT=$_OLD_RPROMPT"
+
