@@ -1,3 +1,3 @@
 #!/bin/sh
 source $1/bin/activate
-source ~/projects/configs_and_utilities/repo/cygwin/virtualenv_tools/aenv_source
+source ~/projects/configs_and_utilities/repo/virtualenv_tools/aenv_source
