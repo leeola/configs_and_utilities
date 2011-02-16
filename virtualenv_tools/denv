@@ -1,0 +1,5 @@
+#!/bin/sh
+
+deactivate
+export "RPROMPT=$_OLD_RPROMPT"
+

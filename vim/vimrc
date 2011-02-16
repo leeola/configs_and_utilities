@@ -17,6 +17,9 @@ call pathogen#helptags()
 " Set indentation to use spaces instead of tabs.
 set expandtab
 
+" Turn on line numbers
+set number
+
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish

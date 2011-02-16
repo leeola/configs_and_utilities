@@ -1,0 +1,7 @@
+#!/bin/sh
+
+source $1/bin/activate
+export "PS1=$_OLD_VIRTUAL_PS1"
+export "_OLD_RPROMPT=$RPROMPT"
+export "RPROMPT=%{${fg[green]}%}(`basename \"$VIRTUAL_ENV\"`) $RPROMPT"
+
